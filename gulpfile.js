@@ -53,6 +53,7 @@ function js(done) {
         src([
             'node_modules/@tryghost/shared-theme-assets/assets/js/lib/**/*.js',
             'node_modules/@tryghost/shared-theme-assets/assets/js/main.js',
+            'node_modules/prismjs/prism.js',
             'assets/js/lib/*.js',
             'assets/js/main.js'
         ], {sourcemaps: true}),
